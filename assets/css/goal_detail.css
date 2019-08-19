@@ -1,0 +1,158 @@
+body {
+	
+}
+
+#goalDetailWrapper{
+	padding-top: 4em;
+}
+
+#pageTitle{
+	margin-bottom: 2.5em;
+}
+
+#pageTitle img{
+	width: 150px;
+	height: 150px;
+	background: #ddd;
+	margin-right: 2em;
+}
+
+#pageTitle h1{
+	font-size: 2.3em;
+	margin-bottom: 0.2em;
+	text-transform: uppercase;
+}
+
+#pageTitle p{
+	color: #444;
+	font-size: 1.35em;
+	line-height: 1.4em;
+	margin-bottom: 1.8em;
+	max-width: 600px;
+}
+
+#projectsTitle{
+	font-size: 2em;
+	margin-bottom: 0.3em;
+	font-family: "Open Sans", sans-serif;
+	/* text-transform: uppercase; */
+}
+
+#projects{
+	margin: 0 -1.8em;
+	margin-bottom: 2em;
+}
+
+.project-item{
+	flex-shrink: 0;
+	padding: 1.25em 2em;
+	box-sizing: border-box;
+	position: relative;
+	width: 33.333%;
+	display: flex;
+	flex-direction: column;
+}
+
+.project-item .image{
+	background: #bbb;
+	height: 250px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 5px 5px 0 0;
+}
+
+.project-item img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: top;
+}
+
+.project-item .text{
+	display: flex;
+	flex-direction: column;
+	padding: 1.5em;
+	background: #e0e0e0;
+	border-radius: 0 0 5px 5px;
+}
+
+.project-item h2{
+	font-size: 1.35em;
+	margin-bottom: 0.2em;
+}
+
+.project-item .organisation{
+	display: block;
+	font-size: 1.2em;
+	margin-bottom: 0.5em;
+	color: #555;
+}
+
+.project-item p{
+	font-weight: 100;
+	font-size: 1.05em;
+	line-height: 1.5em;
+	color: #444;
+	margin-bottom: 1.3em;
+}
+
+.goal-item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid #e0e0e0;
+}
+
+.goal-item + .goal-item{
+	margin-left: -12px;
+}
+
+.project-item .rounded-btn{
+	min-width: 0;
+	margin-top: 0;
+	padding: 0.6em 1.3em;
+	padding-top: 0.65em;
+	color: #444 !important;
+	border-color: #888 !important;
+	transition: all 0.25s ease-out;
+}
+
+.project-item .rounded-btn:hover{
+	background: rgba(0, 0, 0, 0.05);
+	/* color: #444 !important; */
+	/* border-color: #555 !important; */
+}
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 521px){
+    
+}
+
+@media screen and (max-width: 520px){
+	#goalDetailWrapper{
+		padding-top: 2.5em;
+	}
+	
+    #pageTitle h1{
+		font-size: 2em;
+	}
+
+	#pageTitle > div{
+		width: 100%;
+	}
+
+	#pageTitle img{
+		margin-bottom: 2em;
+	}
+
+	.project-item{
+		width: 100%;
+	}
+}

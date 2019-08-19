@@ -1,0 +1,293 @@
+body {
+	
+}
+
+#goalDetailWrapper section{
+	/* padding-top: 4em; */
+	padding: 0 4em;
+}
+
+#pageTitle{
+	background: #000;
+	padding: 5em 4em;
+	margin-bottom: 3.6em;
+	color: #fff;
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/girl.png);
+	min-height: 420px;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+#pageTitle:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	background: linear-gradient(110deg, rgba(0, 0, 0, 1) 28%, rgba(0, 0, 0, 0.4) 45%, rgba(0, 0, 0, 0.3) 65%, rgba(0, 0, 0, 0) 90%);
+}
+
+#pageTitle > *{
+	z-index: 1;
+}
+
+#pageTitle #text{
+	width: 100%;
+	max-width: 600px;
+}
+
+#pageTitle small{
+	text-transform: uppercase;
+	font-size: 1.15em;
+	font-weight: 100;
+	letter-spacing: 0.04em;
+}
+
+#pageTitle h1{
+	font-size: 2.3em;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+	line-height: 1.2em;
+}
+
+#pageTitle li{
+	display: block;
+	width: 600px;
+}
+
+#pageTitle li:not(:last-of-type){
+	margin-bottom: 2em;
+}
+
+#pageTitle li strong{
+	display: block;
+	margin-top: 0.2em;
+	font-size: 1.6em;
+	text-transform: none;
+}
+
+#quickSummary > div{
+	width: 50%;
+}
+
+#implementationDetals{
+	margin-bottom: 5em;
+}
+
+#implementationDetals > div{
+	margin: -1em;
+	margin-top: -0.5em;
+}
+
+.implementation-item{
+	padding: 0.5em 1em;
+	width: 50%;
+}
+
+.implementation-item > div{
+	border: 1px solid #555;
+	padding: 2em;
+	border-radius: 3px;
+}
+
+.implementation-item small{
+	font-size: 1.1em;
+	display: block;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin-bottom: 0.3em;
+	letter-spacing: 0.02em;
+}
+
+.implementation-item strong{
+	font-size: 1.7em;
+	position: relative;
+	display: block;
+}
+
+.implementation-item strong:not(:last-child):after{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -0.55em;
+	width: 70%;
+	max-width: 120px;
+	height: 1px;
+	background: #ddd;
+}
+
+.implementation-item strong + small{
+	margin-top: 2em;
+}
+
+#aboutProject{
+	margin-bottom: 3.4em;
+}
+
+#aboutProject p{
+	font-weight: 100;
+	font-size: 1.5em;
+	line-height: 1.8em;
+}
+
+#sdgsSection{
+	margin-bottom: 3.6em;
+}
+
+.sdg-item{
+	width: 130px;
+	margin-right: 0.5em;
+	margin-bottom: 1em;
+}
+
+.sdg-item img{
+	width: 100%;
+}
+
+.section-header{
+	font-size: 2em;
+	margin-bottom: 0.6em;
+	font-family: "Open Sans", sans-serif;
+}
+
+#impactSection{
+	margin-bottom: 4em;
+}
+
+#impactSection > .layout{
+	margin: 0 -1em;
+}
+
+.impact-item{
+	margin: 1em;
+	min-width: 250px;
+	max-width: 250px;
+	text-align: center;
+}
+
+.impact-item .number{
+	background: #f0f0f0;
+	height: 180px;
+	width: 180px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 6px double #ddd;
+	font-family: "GT Walsheim", sans-serif;
+	font-size: 2.5em;
+	margin-bottom: 0.5em;
+
+	background: #fffbf4;
+	border-color: #eacf9d;
+	color: #b78320;
+}
+
+.impact-item h3{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.6em;
+	line-height: 1.3em;
+}
+
+#images{
+	height: 550px;
+	margin-top: 1.5em;
+	margin-bottom: 4em;
+}
+
+#images > div{
+	overflow: hidden;
+}
+
+#images div{
+	position: relative;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+#images img{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+#images > div:first-child{
+	margin: 0.5em;
+	margin-left: 0;
+	width: 35%;
+	flex-shrink: 0;
+	background: #ccc;
+}
+
+#images > div:last-child{
+	flex: 1;
+}
+
+#images > div:last-child div{
+	margin: 0.5em;
+	width: 50%;
+	height: 50%;
+	width: calc(50% - 1em);
+	height: calc(50% - 1em);
+	background: #ccc;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 521px){
+    
+}
+
+@media screen and (max-width: 520px){
+	#goalDetailWrapper > .section-wrapper{
+		padding: 0;
+	}
+
+    #pageTitle{
+		padding: 4em 2em;
+	}
+
+	#pageTitle h1 {
+		font-size: 2em;
+	}
+
+	#goalDetailWrapper section{
+		padding: 0 2em;
+	}
+
+	.implementation-item{
+		width: 100%;
+	}
+
+	.sdg-item {
+		width: 33.333%;
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+
+	.impact-item{
+		min-width: 0;
+		max-width: 100%;
+		width: 50%;
+		width: calc(50% - 2em);
+		padding: 1em;
+		margin-bottom: -1em;
+	}
+
+	.impact-item h3 {
+		font-size: 1.3em;
+	}
+
+	#images > div:first-child {
+		width: 100%;
+	}
+	
+	#images > div:last-child {
+		/* margin: 0 -1em; */
+	}
+}
