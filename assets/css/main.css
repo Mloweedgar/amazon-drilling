@@ -1,5 +1,6 @@
 body{
-    --primary-color: #000055;
+    --main-blue: #000055;
+    --main-red: #e1192a;;
     padding-top: 60px;
 }
 
@@ -46,8 +47,8 @@ nav{
 nav a{
 	padding: 0.8em 1.1em;
 	text-transform: uppercase;
-	font-size: 0.9rem;
-    color: #555;
+	font-size: 1rem;
+    color: #444;
     min-width: 110px;
 }
 
@@ -57,16 +58,15 @@ nav a:hover{
 
 nav a.active{
 	font-weight: 600;
-	color: #000055;
+    color: #e1192a;
 }
 
 #callUs{
     font-size: 0.9rem;
-    color: #555;
+    color: #333;
 }
 
 #callUs strong{
-    /* font-size: 0.9rem; */
     color: #000055;
     display: inline-block;
     margin-left: 0.6em;
@@ -197,58 +197,11 @@ main{
     background: transparent;
 }
 
-.cta{
-    position: relative;
-    background: #ddd;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-
-.cta:after{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.5);
-}
-
-.cta .text{
-    min-height: 300px;
-    position: relative;
-    z-index: 1;
-    text-align: center;
-}
-
-.cta .text h5{
-    font-size: 2em;
-    line-height: 1.3em;
-    font-weight: normal;
-    font-weight: normal;
-    margin-bottom: 0.2em;
-}
-
-.cta .text p{
-    max-width: 500px;
-    font-size: 1em;
-    line-height: 1.7em;
-    margin-bottom: 0.9em;
-}
-
-.cta .text .btn{
-    min-width: 220px;
-    border-radius: 50px;
-    padding: 1em 2.6em;
-    background: #222;
-    color: #fff;
-}
-
 footer{
 	padding-top: 3.5em;
 	padding-bottom: 2em;
     border-top: 1px solid #ddd;
-    background: #f2f2f4;
+    background: #fff;
     color: #555;
 }
 
