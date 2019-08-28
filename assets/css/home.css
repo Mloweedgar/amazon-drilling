@@ -126,6 +126,78 @@ body {
 	margin-top: 0.3em;
 }
 
+section h2{
+	font-size: 2.45em;
+	/* line-height: 1.5em; */
+	/* text-align: center; */
+	margin-bottom: 0.7em;
+}
+
+#advantagesSection{
+	margin-top: 6em;
+}
+
+#advantagesSection .section-wrapper{
+	margin-bottom: 4em;
+	max-width: 1200px;
+}
+
+#advantagesSection .section-wrapper > *{
+	padding: 0 0.6em;
+}
+
+#advantagesSection h2{
+	/* display: inline-block; */
+	/* margin-right: 0.5em; */
+}
+
+#advantagesSection .section-wrapper > div{
+	margin-top: 0.5em;
+}
+
+.advantage-item{
+	width: calc(50% - 0.8em);
+	margin: 0 0.4em;
+	margin-bottom: 1em;
+	font-size: 2.3em;
+	font-weight: 100;
+	background: #dcddf2;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.15);
+	border-radius: 5px;
+	padding: 0.5em 0.7em;
+}
+
+.advantage-item .icon{
+	width: 60px;
+    height: 60px;
+    margin-right: 0.5em;
+    border-radius: 50%;
+    background: #883f46;
+    color: #fefbfb;
+}
+
+.advantage-item .icon svg{
+	width: 24px;
+	height: 24px;
+}
+
+.advantage-item h3{
+	font-weight: normal;
+	padding-top: 0.1em;
+	color: #444454;
+	text-transform: capitalize;
+}
+
+.advantage-item h3 small{
+	display: block;
+	margin-bottom: 0.1em;
+	font-family: "Open Sans";
+	font-weight: normal;
+	font-size: 0.6em;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
 #aboutSection .section-wrapper{
 	margin-top: 6em;
 	margin-bottom: 2em;
@@ -146,90 +218,91 @@ body {
 }
 
 #fleetSection{
-	padding-top: 4em;
-	padding-bottom: 4em;
-	/* background: #fff; */
-	color: #252535;
+	margin-top: 5.5em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    /* background: #fff; */
+    color: #252535;
+	background-color: #252531;
 }
 
 #fleetSection h2{
-	font-size: 2.8em;
-	line-height: 1.5em;
 	text-align: center;
+	color: #fcfcfc;
 	margin-bottom: 0.5em;
+}
+
+#fleetSection > p{
+	font-size: 1.4em;
+	line-height: 1.6em;
+    /* font-weight: 300; */
+    max-width: 800px;
+    text-align: center;
+    color: #cfcfcf;
+    margin: auto;
+    margin-bottom: 1.5em;
 }
 
 #fleetSection .section-wrapper{
 	/* max-width: 1300px; */
 	/* max-width: 100vw; */
 	/* padding: 0; */
+	/* max-width: 100vw; */
+	justify-content: center;
 }
 
-#fleetSection .section-wrapper > div{
-	width: 50%;
+#fleetScroller{
+
+}
+
+#fleetScroller > div{
+	flex-shrink: 0;
+	width: 43%;
 	/* width: 25%; */
-	padding: 2em 1.5em;
+	padding: 1.5em 1em;
 }
 
 .fleet-item{
-	position: relative;
-	overflow: hidden;
-	background: #000;
-	color: #fff;
-	padding: 1.5em;
-	/* padding: 2em; */
-	border-radius: 5px;
-	overflow: hidden;
-	height: 340px;
 	display: flex;
-	align-items: flex-end;
-	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	background: #fff;
+	overflow: hidden;
 	text-align: center;
-	/* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
-	/* box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1); */
-	background-size: cover;
-	background-image: url('https://amazondrilling.com/assets/images/fleets/atlas.jpg');
-	transition: all 0.25s ease-out;
+	border-radius: 3px;
 }
 
-.fleet-item:hover{
-	box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.5);
-	transform: translateY(-4%);
+.fleet-item .image{
+	position: relative;
+	height: 300px;
 }
 
-.fleet-item:before{
-	content: '';
+.fleet-item .image img{
 	position: absolute;
-	top: 0;
 	left: 0;
-	right: 0;
-	bottom: 0;
-	background: rgba(0, 0, 0, 0.8);
-	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.7) 70%, rgba(0, 0, 0, 0.9) 95%);
+	top: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
 }
 
-#fleetSection .section-wrapper > div:nth-of-type(2) .fleet-item{
-	background-image: url('https://amazondrilling.com/assets/images/fleets/srd.jpg');
-}
-
-#fleetSection .section-wrapper > div:nth-of-type(3) .fleet-item{
-	background-image: url('https://amazondrilling.com/assets/images/fleets/landcruiser.jpg');
-}
-
-#fleetSection .section-wrapper > div:nth-of-type(4) .fleet-item{
-	background-image: url('https://amazondrilling.com/assets/images/fleets/atlas-copco.jpg');
+.fleet-text{
+	padding: 1em;
 }
 
 .fleet-item h3{
-	/* font-family: "Open Sans"; */
-	font-weight: 100;
-	font-size: 2em;
-	margin-bottom: 1rem;
+	font-family: "Open Sans";
+	font-weight: normal;
+	font-size: 1.72em;
+}
+
+.fleet-item ul,
+.fleet-item p + p{
+	display: none;
 }
 
 .fleet-item p{
-	display: none;
-	/* font-family: "Open Sans"; */
 	font-weight: 100;
 	font-size: 1.25em;
 	line-height: 1.8em;
