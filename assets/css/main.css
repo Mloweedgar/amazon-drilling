@@ -202,7 +202,7 @@ footer{
 	padding-bottom: 2em;
     border-top: 1px solid #ddd;
     background: #fff;
-    color: #555;
+    color: #000;
 }
 
 footer .section-wrapper{
@@ -221,7 +221,7 @@ footer .footer-section{
 footer .footer-section h5{
 	/* color: #e8ecf1; */
     /* color: #c5c5c5; */
-    color: #333;
+    color: #727272;
 	font-size: 1.1em;
 	margin-bottom: 1.3em;
 }
@@ -229,16 +229,17 @@ footer .footer-section h5{
 footer .footer-section a,
 footer .footer-section p{
 	display: block;
-    padding: 0.4em 0;
+    padding: 0.6em 0;
+    font-size: 1.1rem;
 }
 
 footer .footer-section a{
-    font-size: 1.12rem;
+    /* font-size: 1.2rem; */
 }
 
 footer .footer-section p span{
 	color: #d0d9e2;
-	color: #777;
+	color: #555;
 	margin-right: 0.5em;
 }
 
