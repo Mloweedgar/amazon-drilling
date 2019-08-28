@@ -121,9 +121,11 @@
 	</div>
 	
 	<section id="fleetSection">
-		<h2>Our Fleets</h2>
+		<h2>Our Fleet</h2>
 		<p>
-			We operate a modern fleet of remote-area drilling, sample extraction rigs, including both track and truck mounted rigs and earthworks equipment.
+			<!-- We operate a modern fleet of remote-area drilling, sample extraction rigs, including both track and truck mounted rigs and earthworks equipment. -->
+			Modern track and truck mounted remote-area drilling, <br/>
+			sample extraction rigs and earthworks equipment.
 		</p>
 		<div class="section-wrapper">
 			<div id="fleetScroller" class="layout">
@@ -185,6 +187,15 @@
 				</div>
 			</div>
 		</div>
+	</section>
+
+	<section id="sectionCta">
+		<!-- <div class="section-wrapper"> -->
+			<div class="text">
+				<h2>Want some drilling done?</h2>
+				<p>Contact us:&nbsp; <strong>+255 743 25 00 05</strong></p>
+			</div>
+		<!-- </div> -->
 	</section>
 </main>
 

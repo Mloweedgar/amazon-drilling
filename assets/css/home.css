@@ -127,18 +127,15 @@ body {
 }
 
 section h2{
-	font-size: 2.45em;
-	/* line-height: 1.5em; */
-	/* text-align: center; */
-	margin-bottom: 0.7em;
+	font-size: 2.8em;
+	margin-bottom: 1em;
 }
 
 #advantagesSection{
-	margin-top: 6em;
+	margin-top: 7em;
 }
 
 #advantagesSection .section-wrapper{
-	margin-bottom: 4em;
 	max-width: 1200px;
 }
 
@@ -147,8 +144,8 @@ section h2{
 }
 
 #advantagesSection h2{
-	/* display: inline-block; */
-	/* margin-right: 0.5em; */
+	text-align: center;
+	/* margin-bottom: 1.4em; */
 }
 
 #advantagesSection .section-wrapper > div{
@@ -218,17 +215,17 @@ section h2{
 }
 
 #fleetSection{
+	border-top: 1px solid #ddd;
 	margin-top: 5.5em;
-    padding-top: 4em;
+    padding-top: 5.5em;
     padding-bottom: 4em;
-    /* background: #fff; */
-    color: #252535;
-	background-color: #252531;
+    /* color: #252535; */
+	/* background-color: #252531; */
 }
 
 #fleetSection h2{
 	text-align: center;
-	color: #fcfcfc;
+	/* color: #fcfcfc; */
 	margin-bottom: 0.5em;
 }
 
@@ -238,7 +235,7 @@ section h2{
     /* font-weight: 300; */
     max-width: 800px;
     text-align: center;
-    color: #cfcfcf;
+    /* color: #cfcfcf; */
     margin: auto;
     margin-bottom: 1.5em;
 }
@@ -318,7 +315,7 @@ section h2{
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: -16em;
+	bottom: -6em;
 	z-index: -1;
 	background: linear-gradient(180deg, rgb(245, 236, 236) 45%, rgba(255,255,255,1) 98%);
 }
@@ -327,8 +324,38 @@ header{
 	/* display: none; */
 }
 
+#sectionCta{
+	background-size: cover;
+	background-position: center bottom;
+	background-image: url('https://amazondrilling.com/assets/images/services/social-responsibility.jpg');
+}
+
+#sectionCta .text{
+	padding: 5em 0;
+	background-color: rgba(26, 26, 69, 0.9);
+	text-align: center;
+}
+
+#sectionCta h2{
+	font-size: 3.3em;
+	color: #fcfcfc;
+	margin-bottom: 0.3em;
+}
+
+#sectionCta p{
+	font-weight: 100;
+	font-size: 2em;
+	line-height: 1.6em;
+    color: #f8e0e2;
+}
+
+#sectionCta p strong{
+	color: #d9424e;
+	font-weight: bold;
+}
+
 #banner{
-	/* margin-top: -48em; */
+	/* margin-top: -160vh; */
 }
 
 main{
