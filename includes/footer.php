@@ -10,8 +10,8 @@
 			<div class="footer-section for-lg">
 				<h5>QUICK LINKS</h5>
 				<a href="#">Mission &amp; Vision</a>
-				<a href="#">Quality Management</a>
-				<a href="#">Corporate Social Responsibility</a>
+				<a href="#">Sustainability</a>
+				<a href="#">Fleets</a>
 			</div>
 
 			<div class="footer-section">
