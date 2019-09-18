@@ -117,7 +117,14 @@
 				</div>
 			</div>
 		</section>
+	</div>
 
+	<div id="cta">
+		<!-- <div class="section-wrapper"> -->
+			<div class="image">
+				<img src="assets/img/miner.jpg" alt="">
+			</div>
+		<!-- </div> -->
 	</div>
 	
 	<section id="fleetSection">

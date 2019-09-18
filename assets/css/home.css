@@ -132,7 +132,7 @@ section h2{
 }
 
 #advantagesSection{
-	margin-top: 9em;
+	margin-top: 7.5em;
 }
 
 #advantagesSection .section-wrapper{
@@ -218,10 +218,37 @@ section h2{
 	color: #000;
 }
 
-#fleetSection{
-	border-top: 1px solid #ddd;
+#banner{
+	/* margin-top: -130vh; */
+}
+
+#cta{
 	margin-top: 1.5em;
-    padding-top: 5.5em;
+	margin-bottom: 6.5em;
+}
+
+#cta .section-wrapper{
+	/* max-width: 1300px; */
+}
+
+#cta .image{
+	background: linear-gradient(135deg, rgba(0,0,85,1) 31%, rgba(87,15,21,1) 60%, rgba(124,21,29,1) 84%);
+	/* background: rgb(52, 52, 126); */
+}
+
+#cta img{
+	height: 450px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+	/* mix-blend-mode: multiply; */
+	opacity: 0.4;
+}
+
+#fleetSection{
+	/* border-top: 1px solid #ddd; */
+	/* margin-top: 1.5em; */
+    /* padding-top: 5.5em; */
     padding-bottom: 4em;
     /* color: #252535; */
 	/* background-color: #252531; */
