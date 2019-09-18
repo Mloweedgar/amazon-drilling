@@ -119,12 +119,13 @@
 		</section>
 	</div>
 
-	<div id="cta">
-		<!-- <div class="section-wrapper"> -->
-			<div class="image">
-				<img src="assets/img/miner.jpg" alt="">
-			</div>
-		<!-- </div> -->
+	<div id="socialResponsibility">
+		<div class="section-wrapper layout vertical center-justified">
+			<small>
+				Concerning Social Responsibility
+			</small>
+			<p>Establishing good relationships built on trust with host communities is fundamental to acquiring and maintaining our social licence to operate wherever we are asked to go.</p>
+		</div>
 	</div>
 	
 	<section id="fleetSection">

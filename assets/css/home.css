@@ -218,31 +218,49 @@ section h2{
 	color: #000;
 }
 
-#banner{
-	/* margin-top: -130vh; */
-}
-
-#cta{
+#socialResponsibility{
 	margin-top: 1.5em;
 	margin-bottom: 6.5em;
+	position: relative;
+	/* background: linear-gradient(135deg, rgba(0,0,85,1) 31%, rgba(87,15,21,1) 60%, rgba(124,21,29,1) 84%); */
+	background: url(../img/miner.jpg);
 }
 
-#cta .section-wrapper{
-	/* max-width: 1300px; */
-}
-
-#cta .image{
-	background: linear-gradient(135deg, rgba(0,0,85,1) 31%, rgba(87,15,21,1) 60%, rgba(124,21,29,1) 84%);
-	/* background: rgb(52, 52, 126); */
-}
-
-#cta img{
-	height: 450px;
+#socialResponsibility:after{
+	/* height: 450px; */
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
 	width: 100%;
-	object-fit: cover;
-	object-position: center;
-	/* mix-blend-mode: multiply; */
 	opacity: 0.4;
+	background: linear-gradient(135deg, rgba(0,0,85,1) 31%, rgba(87,15,21,1) 60%, rgba(124,21,29,1) 84%);
+}
+
+#socialResponsibility .section-wrapper{
+	min-height: 450px;
+	max-width: 1000px;
+	color: #fff;
+}
+
+#socialResponsibility > *{
+	position: relative;
+	z-index: 1;
+}
+
+#socialResponsibility p{
+	font-weight: 100;
+	font-size: 2.3em;
+	line-height: 1.5em;
+}
+
+#socialResponsibility small{
+	margin-bottom: 0.8em;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	color: #e8b0b5;
 }
 
 #fleetSection{
