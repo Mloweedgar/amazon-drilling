@@ -245,6 +245,7 @@ footer .footer-section p span{
 
 footer #copyright{
     padding-left: 0;
+    padding-right: 0;
 	margin-top: 2em;
 	padding-top: 1.5em;
 	border-top: 1px solid var(--footer-separator-color);
@@ -252,7 +253,6 @@ footer #copyright{
 }
 
 .social-links a{
-	margin-right: 1em;
 	width: 38px;
 	height: 38px;
 	border-radius: 50%;
@@ -260,6 +260,10 @@ footer #copyright{
 	align-items: center;
 	justify-content: center;
 	color: #fff;
+}
+
+.social-links a:not(:last-of-type){
+    margin-right: 1em;
 }
 
 .social-links a[title="youtube"]{
