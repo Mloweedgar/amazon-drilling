@@ -42,9 +42,9 @@
 				<a href="<?php echo $page === "home" ? '#' : 'index.html';?>" class="layout center-center <?php echo $page === "home" ? 'active' : '';?>">Home</a>
 				<a href="<?php echo $page === "about" ? '#' : 'about.html';?>" class="layout center-center <?php echo $page === "partners" ? 'active' : '';?>">About Us</a>
 				<a href="<?php echo $page === "services" ? '#' : 'services.html';?>" class="layout center-center <?php echo $page === "partners" ? 'active' : '';?>">Our Services</a>
+				<a href="<?php echo $page === "contacts" ? '#' : 'contacts.html';?>" class="layout center-center <?php echo $page === "partners" ? 'active' : '';?>">Contact Us</a>
 				<!-- <a href="#" class="layout center-center">Sustainability</a> -->
 				<!-- <a href="#" class="layout center-center">Fleets</a> -->
-				<a href="#" class="layout center-center">Contact Us</a>
 			</nav>
 
 			<div id="callUs" class="layout center">
