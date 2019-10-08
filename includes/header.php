@@ -40,9 +40,9 @@
 
 			<nav class="layout center" onclick="hideMenu()">
 				<a href="<?php echo $page === "home" ? '#' : 'index.html';?>" class="layout center-center <?php echo $page === "home" ? 'active' : '';?>">Home</a>
-				<a href="<?php echo $page === "about" ? '#' : 'about.html';?>" class="layout center-center <?php echo $page === "partners" ? 'active' : '';?>">About Us</a>
-				<a href="<?php echo $page === "services" ? '#' : 'services.html';?>" class="layout center-center <?php echo $page === "partners" ? 'active' : '';?>">Our Services</a>
-				<a href="<?php echo $page === "contacts" ? '#' : 'contacts.html';?>" class="layout center-center <?php echo $page === "partners" ? 'active' : '';?>">Contact Us</a>
+				<a href="<?php echo $page === "about" ? '#' : 'about.html';?>" class="layout center-center <?php echo $page === "about" ? 'active' : '';?>">About Us</a>
+				<a href="<?php echo $page === "services" ? '#' : 'services.html';?>" class="layout center-center <?php echo $page === "services" ? 'active' : '';?>">Our Services</a>
+				<a href="<?php echo $page === "contacts" ? '#' : 'contacts.html';?>" class="layout center-center <?php echo $page === "contacts" ? 'active' : '';?>">Contact Us</a>
 				<!-- <a href="#" class="layout center-center">Sustainability</a> -->
 				<!-- <a href="#" class="layout center-center">Fleets</a> -->
 			</nav>
